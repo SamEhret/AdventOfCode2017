@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;\red255\green255\blue84;\red255\green255\blue102;
+\red18\green139\blue2;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid101\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww25400\viewh14520\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs38 \cf0 \expnd0\expndtw0\kerning0
+--- Day 1: Inverse Captcha ---\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+The night before Christmas, one of Santa's Elves calls you in a panic. "The printer's broken! We can't print the \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 Naughty or Nice List\expnd0\expndtw0\kerning0
+\shad0 !" By the time you make it to sub-basement 17, there are only a few minutes until midnight. "We have a big problem," she says; "there must be almost \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 fifty\expnd0\expndtw0\kerning0
+\shad0  bugs in this system, but nothing else can print The List. Stand in this square, quick! There's no time to explain; if you can convince them to pay you in \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc4 stars\expnd0\expndtw0\kerning0
+\shad0 , you'll be able to--" She pulls a lever and the world goes blurry.\
+When your eyes can focus again, everything seems a lot more pixelated than before. She must have sent you inside the computer! You check the system clock: \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 25 milliseconds\expnd0\expndtw0\kerning0
+\shad0  until midnight. With that much time, you should be able to collect all \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc4 fifty stars\expnd0\expndtw0\kerning0
+\shad0  by December 25th.\
+Collect stars by solving puzzles. Two puzzles will be made available on each \expnd0\expndtw0\kerning0
+\strike \strikec2 day\expnd0\expndtw0\kerning0
+\strike0\striked0  millisecond in the advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc4 one star\expnd0\expndtw0\kerning0
+\shad0 . Good luck!\
+You're standing in a room with "digitization quarantine" written in LEDs along one wall. The only door is locked, but it includes a small interface. "Restricted Area - Strictly No Digitized Users Allowed."\
+It goes on to explain that you may only leave by solving a {\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/CAPTCHA"}}{\fldrslt \expnd0\expndtw0\kerning0
+captcha}} to prove you're \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 not\expnd0\expndtw0\kerning0
+\shad0  a human. Apparently, you only get one millisecond to solve the captcha: too fast for a normal human, but it feels like hours to you.\
+The captcha requires you to review a sequence of digits (your puzzle input) and find the \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 sum\expnd0\expndtw0\kerning0
+\shad0  of all digits that match the \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 next\expnd0\expndtw0\kerning0
+\shad0  digit in the list. The list is circular, so the digit after the last digit is the \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 first\expnd0\expndtw0\kerning0
+\shad0  digit in the list.\
+For example:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+1122 produces a sum of 3 (1 + 2) because the first digit (1) matches the second digit and the third digit (2) matches the fourth digit.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+1111 produces 4 because each digit (all 1) matches the next.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+1234 produces 0 because no digit matches the next.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+91212129 produces 9 because the only digit that matches the next one is the last digit, 9.\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 What is the solution\expnd0\expndtw0\kerning0
+\shad0  to your captcha?\
+Your puzzle answer was 1343.\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+--- Part Two ---\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+You notice a progress bar that jumps to 50% completion. Apparently, the door isn't yet satisfied, but it did emit a \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc4 star\expnd0\expndtw0\kerning0
+\shad0  as encouragement. The instructions change:\
+Now, instead of considering the \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 next\expnd0\expndtw0\kerning0
+\shad0  digit, it wants you to consider the digit \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 halfway around\expnd0\expndtw0\kerning0
+\shad0  the circular list. That is, if your list contains 10 items, only include a digit in your sum if the digit 10/2 = 5 steps forward matches it. Fortunately, your list has an even number of elements.\
+For example:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+1212 produces 6: the list contains 4 items, and all four digits match the digit 2 items ahead.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+1221 produces 0, because every comparison is between a 1 and a 2.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+123425 produces 4, because both 2s match each other, but no other digit has a match.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+123123 produces 12.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+12131415 produces 4.\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 What is the solution\expnd0\expndtw0\kerning0
+\shad0  to your new captcha?\
+Your puzzle answer was 1274.\cf2 \
+}
