@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red193\green193\blue193;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+--- Day 6: Memory Reallocation ---\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+A debugger program here is having an issue: it is trying to repair a memory reallocation routine, but it keeps getting stuck in an infinite loop.\
+In this area, there are sixteen memory banks; each memory bank can hold any number of \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 blocks\expnd0\expndtw0\kerning0
+\shad0 . The goal of the reallocation routine is to balance the blocks between the memory banks.\
+The reallocation routine operates in cycles. In each cycle, it finds the memory bank with the most blocks (ties won by the lowest-numbered memory bank) and redistributes those blocks among the banks. To do this, it removes all of the blocks from the selected bank, then moves to the next (by index) memory bank and inserts one of the blocks. It continues doing this until it runs out of blocks; if it reaches the last memory bank, it wraps around to the first one.\
+The debugger would like to know how many redistributions can be done before a blocks-in-banks configuration is produced that \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 has been seen before\expnd0\expndtw0\kerning0
+\shad0 .\
+For example, imagine a scenario with only four memory banks:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf0 \kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+The banks start with 0, 2, 7, and 0 blocks. The third bank has the most blocks, so it is chosen for redistribution.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+Starting with the next bank (the fourth bank) and then continuing to the first bank, the second bank, and so on, the 7 blocks are spread out over the memory banks. The fourth, first, and second banks get two blocks each, and the third bank gets one back. The final result looks like this: 2 4 1 2.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+Next, the second bank is chosen because it contains the most blocks (four). Because there are four memory banks, each gets one block. The result is: 3 1 2 3.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+Now, there is a tie between the first and fourth memory banks, both of which have three blocks. The first bank wins the tie, and its three blocks are distributed evenly over the other three banks, leaving it with none: 0 2 3 4.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+The fourth bank is chosen, and its four blocks are distributed such that each of the four banks receives one: 1 3 4 1.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 		\expnd0\expndtw0\kerning0
+The third bank is chosen, and the same thing happens: 2 4 1 2.\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+At this point, we've reached a state we've seen before: 2 4 1 2 was already seen. The infinite loop is detected after the fifth block redistribution cycle, and so the answer in this example is 5.\
+Given the initial block counts in your puzzle input, \expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 how many redistribution cycles\expnd0\expndtw0\kerning0
+\shad0  must be completed before a configuration is produced that has been seen before?\
+Your puzzle answer was 4074.\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+--- Part Two ---\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+Out of curiosity, the debugger would also like to know the size of the loop: starting from a state that has already been seen, how many block redistribution cycles must be performed before that same state is seen again?\
+In the example above, 2 4 1 2 is seen again after four cycles, and so the answer in that example would be 4.\
+\expnd0\expndtw0\kerning0
+\shad\shadx0\shady0\shadr100\shado255 \shadc0 How many cycles\expnd0\expndtw0\kerning0
+\shad0  are in the infinite loop that arises from the configuration in your puzzle input?\
+Your puzzle answer was 2793.}
