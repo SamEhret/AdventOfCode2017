@@ -1,0 +1,11 @@
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.csprojResolveAssemblyReference.cache
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.csproj.CoreCompileInputs.cache
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.AssemblyInfoInputs.cache
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.AssemblyInfo.cs
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/bin/Debug/netcoreapp2.0/AdventOfCode.deps.json
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/bin/Debug/netcoreapp2.0/AdventOfCode.runtimeconfig.json
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/bin/Debug/netcoreapp2.0/AdventOfCode.runtimeconfig.dev.json
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/bin/Debug/netcoreapp2.0/AdventOfCode.dll
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/bin/Debug/netcoreapp2.0/AdventOfCode.pdb
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.dll
+/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj/Debug/netcoreapp2.0/AdventOfCode.pdb
