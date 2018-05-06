@@ -1,0 +1,10 @@
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/bin/Debug/netcoreapp2.0/day03project.deps.json
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/bin/Debug/netcoreapp2.0/day03project.runtimeconfig.json
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/bin/Debug/netcoreapp2.0/day03project.runtimeconfig.dev.json
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/bin/Debug/netcoreapp2.0/day03project.dll
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/bin/Debug/netcoreapp2.0/day03project.pdb
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/obj/Debug/netcoreapp2.0/day03project.csproj.CoreCompileInputs.cache
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/obj/Debug/netcoreapp2.0/day03project.AssemblyInfoInputs.cache
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/obj/Debug/netcoreapp2.0/day03project.AssemblyInfo.cs
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/obj/Debug/netcoreapp2.0/day03project.dll
+/Users/Sam/Documents/Python/adventofcode/C#/day03project/obj/Debug/netcoreapp2.0/day03project.pdb
