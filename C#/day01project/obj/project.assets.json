@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/day01project.csproj",
+      "projectUniqueName": "/Users/Sam/Documents/Python/adventofcode/C#/day01project/day01project.csproj",
       "projectName": "day01project",
-      "projectPath": "/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/day01project.csproj",
+      "projectPath": "/Users/Sam/Documents/Python/adventofcode/C#/day01project/day01project.csproj",
       "packagesPath": "/Users/Sam/.nuget/packages/",
-      "outputPath": "/Users/Sam/Documents/Python/adventofcode/C#/AdventOfCode/AdventOfCode/obj",
+      "outputPath": "/Users/Sam/Documents/Python/adventofcode/C#/day01project/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
