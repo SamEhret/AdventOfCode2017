@@ -37,11 +37,14 @@ namespace day04project
                 
                 foreach (var item in tempLine)
                 {
-                    if (checkList.Contains(item)) continue;
-                    checkList.Add(item);
-                    
-                    if (!tempLine.SequenceEqual(checkList)) continue;
-                    validCount += 1;
+                    if (!checkList.Contains(item))
+                    {
+                        checkList.Add(item);
+                        if (tempLine.SequenceEqual(checkList))
+                        {
+                            validCount += 1;
+                        }
+                    }
                 }
             }
             Console.WriteLine($"Part 1 Answer: {validCount}");
@@ -60,12 +63,15 @@ namespace day04project
                 foreach (var item in tempLine)
                 {
                     var tempItem = new string (item.OrderBy(c => c).ToArray());
-                    
-                    if (checkList.Contains(tempItem)) continue;
-                    checkList.Add(tempItem);
-                    
-                    if (tempLine.Length != checkList.Count) continue;
-                    validCount += 1;
+
+                    if (!checkList.Contains(tempItem))
+                    {
+                        checkList.Add(tempItem);
+                        if (tempLine.Length == checkList.Count)
+                        {
+                            validCount += 1;
+                        }
+                    }
                 }
             }
             Console.WriteLine($"Part 2 Answer: {validCount}");
