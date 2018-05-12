@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{D2B3B0A0-CB03-4BA6-8562-81A35D747530}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="C#/day03project/day03.cs">
     <Files>
-      <File FileName="C#/day03project/day03.cs" Line="57" Column="26" />
+      <File FileName="C#/day03project/day03.cs" Line="30" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.day03project FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
